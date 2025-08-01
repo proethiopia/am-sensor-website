@@ -1,0 +1,12 @@
+{
+  "name": "am-sensor-website",
+  "version": "1.0.0",
+  "description": "Website for AM - Sensor app",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
